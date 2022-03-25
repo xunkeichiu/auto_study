@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 入门和锁定学习资源及工具 | A Minimal Book Example</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 入门和锁定学习资源及工具 | A Minimal Book Example" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 入门和锁定学习资源及工具 | A Minimal Book Example" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="John Doe" />
+
+
+<meta name="date" content="2022-03-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="搜索和提问.html"/>
+<link rel="next" href="footnotes-and-citations.html"/>
+<script src="libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 序<span></span></a></li>
+<li class="chapter" data-level="2" data-path="付费学习.html"><a href="付费学习.html"><i class="fa fa-check"></i><b>2</b> 付费学习<span></span></a></li>
+<li class="chapter" data-level="3" data-path="搜索和提问.html"><a href="搜索和提问.html"><i class="fa fa-check"></i><b>3</b> 搜索和提问<span></span></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="搜索和提问.html"><a href="搜索和提问.html#搜索引擎"><i class="fa fa-check"></i><b>3.1</b> 搜索引擎<span></span></a></li>
+<li class="chapter" data-level="3.2" data-path="搜索和提问.html"><a href="搜索和提问.html#搜索内容"><i class="fa fa-check"></i><b>3.2</b> 搜索内容<span></span></a></li>
+<li class="chapter" data-level="3.3" data-path="搜索和提问.html"><a href="搜索和提问.html#搜索表达式"><i class="fa fa-check"></i><b>3.3</b> 搜索表达式<span></span></a></li>
+<li class="chapter" data-level="3.4" data-path="搜索和提问.html"><a href="搜索和提问.html#提问的技巧"><i class="fa fa-check"></i><b>3.4</b> 提问的技巧<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="入门和锁定学习资源及工具.html"><a href="入门和锁定学习资源及工具.html"><i class="fa fa-check"></i><b>4</b> 入门和锁定学习资源及工具<span></span></a></li>
+<li class="chapter" data-level="5" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html"><i class="fa fa-check"></i><b>5</b> Footnotes and citations<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#footnotes"><i class="fa fa-check"></i><b>5.1</b> Footnotes<span></span></a></li>
+<li class="chapter" data-level="5.2" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#citations"><i class="fa fa-check"></i><b>5.2</b> Citations<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="blocks.html"><a href="blocks.html"><i class="fa fa-check"></i><b>6</b> Blocks<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="blocks.html"><a href="blocks.html#equations"><i class="fa fa-check"></i><b>6.1</b> Equations<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="blocks.html"><a href="blocks.html#theorems-and-proofs"><i class="fa fa-check"></i><b>6.2</b> Theorems and proofs<span></span></a></li>
+<li class="chapter" data-level="6.3" data-path="blocks.html"><a href="blocks.html#callout-blocks"><i class="fa fa-check"></i><b>6.3</b> Callout blocks<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sharing-your-book.html"><a href="sharing-your-book.html"><i class="fa fa-check"></i><b>7</b> Sharing your book<span></span></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="sharing-your-book.html"><a href="sharing-your-book.html#publishing"><i class="fa fa-check"></i><b>7.1</b> Publishing<span></span></a></li>
+<li class="chapter" data-level="7.2" data-path="sharing-your-book.html"><a href="sharing-your-book.html#pages"><i class="fa fa-check"></i><b>7.2</b> 404 pages<span></span></a></li>
+<li class="chapter" data-level="7.3" data-path="sharing-your-book.html"><a href="sharing-your-book.html#metadata-for-sharing"><i class="fa fa-check"></i><b>7.3</b> Metadata for sharing<span></span></a></li>
+</ul></li>
+<li><a href="references.html#references">References<span></span></a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="入门和锁定学习资源及工具" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> 入门和锁定学习资源及工具<a href="入门和锁定学习资源及工具.html#入门和锁定学习资源及工具" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>注：因为这些流程需要借助一个主题将思路细节化，所以，看起来这一章接下来的内容会主要和法语学习相关，但希望大家阅读的时候不要被我提供的大量额外信息带偏，我重点想说的还是这个思路。</p>
+<p>现在假定，我们已经确定了一门学科想要自学，我们首先应该做什么？</p>
+<p>首先你要去了解这个学科/行业标准，有没有哪个机构/组织设定了标准来衡量每个个体对这个学科的学习程度，标准的划分中，每个等级对应的内容是什么，有什么样的验证方式（比如考试）？对你而言，你的目标是学到什么程度？这个程度在标准里如何量化？</p>
+<p>如果把学习当做一个旅程，以上的一系列开篇问题就是首先了解环境，同时找到自己目前的位置和接下来要去的地方，这些都确定好了，才能出发上路，并且思考哪一条路你最喜欢。</p>
+<p>以法语为例，首先你需要了解的是《欧洲共同语言参考标准》，这个评价语言学习程度的标准适用于所有欧盟国家的语言，这里给大家放一个精简版以作参考。</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>A：初学阶段 <br>
+A1：入门级 能理解并运用每天熟悉、与自己喜好有关且具体的表达方式和非常基础的语句，可以介绍或询问、回答自己或他人有关个人的讯息，例如居住地、人际关系、所有物，对于他人缓慢而清晰的对谈，只能以简单的方式产生反应。<br>
+A2：初级 能理解在最贴近自己的环境中经常被使用的表达方式或语句，例如非常基本的个人和家庭资料、购物、区域地理、和就业，能与人沟通简单而例行性的工作，这类工作通常只需要简单而直接的日常讯息，另外，这个等级的学习者，能够用粗浅的词语描述自身背景、以及最贴近自己的环境之中的事物。<br>
+B：独立阶段 <br>
+B1：中级 能理解自己在工作、学习环境、休闲环境等等遇到熟悉的事物做出理解，能在该语言使用地区旅游时对应各种可能的状况，也可以对于自己感兴趣或熟知的的事物提出简单的相关资讯，另外还能够描述经验、事件、梦境、愿望和雄心大志，并能对自己的意见或计划做出简略的解释。<br>
+B2：中高级 能理解复杂文章段落的具体和抽象主旨，包括技巧地讨论自己专门的领域，可自然而流畅地和该语言的母语使用者进行例行互动。可以针对广泛的主题说出清晰、细节性的文字，并且可对于一个议题提出解释与利弊分析或是各式各样的想法。<br>
+C：精通阶段 <br>
+C1：高级 能理解包括要求、长篇文章、或意义含蓄的广泛讯息，自然而流畅的表达，而没有明显的词穷状况发生，懂得弹性并有效率的运用语言在社交、学术、专业目的之上，对于复杂的主题能产生清晰且架构良好、细节性的文字，展现收放自如的组织形式、连结和精巧的策略。<br>
+C2：精通级 能够轻易理解任何吸收到的讯息，并且针对不同书面或口语来源做出大纲、重新架构不同的论点，提出的表达，自然而非常流畅，紧紧地抓住语言最唯妙唯肖的部分，更能在较为复杂的场合上辨别专业上细微的意涵”</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>如果你对于搜索还是有些不熟练，不知道如何找这个标准，另外一个切入途径，就是直接通过你的学习目的，即自学之后想干什么的那件事儿的要求，来看对方参考了哪个标准设立门槛。反过来找，也一样能找到这个东西。一正一反两条路最后都会在中间相遇。你可以查到这个标准之后再去了解，移民需要B1，一般本科需要B2，硕士需要C1。你也可以直接去看某个项目，通过对方的要求B1/B2/C1等认识这些字母的含义。</p>
+<p>同时，这些标准往往也对应着一些参考学时，比如法国文化协会对于法语学习给出的参考学时（累积）是：</p>
+<ul>
+<li>A1 60–100<br />
+</li>
+<li>A2 160–200<br />
+</li>
+<li>B1 360–400<br />
+</li>
+<li>B2 560–650<br />
+</li>
+<li>C1 810–950</li>
+<li>C2 1,060–1,200</li>
+</ul>
+<p>当你认识了这种定义性的标准，还需要去了解相关的考试，往往考试也会有好几种，而且也会面对不同的人群分组。像是法语考试，会有TCF(一般/国籍/加拿大), TEF(一般/加拿大/魁北克), DELF/DALF(一般/青少年/职业)各种，就和大家熟知的国外英语考雅思和托福(托业)，国内英语有四六八级是一个道理。这里就不展开具体说这几门考试了，感兴趣的一搜就能找到介绍。</p>
+<p>可以在网上搜索样题对不同的考试先有个概念，当然也可以把他们当做北极星，认出来就好，先放一边等到水平接近了再去研究考试。</p>
+<p>接下来，我们就要开始应有上一章写到的搜索技巧来寻找学习资源，这里有一个原则是从大到小，从整体到局部，具体一点说，就是：</p>
+<ul>
+<li>从课程到具体工具</li>
+<li>从整合性资源到阶段性资源</li>
+<li>从整体经验到针对性提高</li>
+</ul>
+<p>为什么呢？因为你需要拔高自己先去山顶看一下上山的路，然后再选择，这样比直接上山会少绕圈子。如果你能找到一次性到位的完整的学习资源，那么肯定你会中间少花很多时间顾左盼右，不用一次又一次重复搜索；如果你先去读一些从0到高阶的完整经验贴，那么在这些帖子当中，一定会提到不同阶段大家使用到的工具/教材/方法，而且很多人也会分享自己的走的弯路，这些都可以整理出来进行比较。当你顺着这些方向走下去，遇到实际的问题的时候再单个解决。</p>
+<p>这里给大家分享一些设计完整的课程：(什么课程都可以先去Edx还有coursera找找看)</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://learning.edx.org/course/course-v1:WestonHS+PFLC1x+2T2021/home">Edx:On-Ramp to AP® French Language and Culture</a></li>
+<li><a href="https://www.coursera.org/learn/etudier-en-france">Coursera:Étudier en France: French Intermediate course B1-B2</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/vivre-en-france-a1/">Fun-mooc:Vivre en France - A1</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/vivre-en-france-a2/">Fun-mooc:Vivre en France - A2</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/travailler-en-france-a2-b1/">Fun-mooc:Travailler en France A2-B1</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/vivre-en-france-b1/">Fun-mooc:Vivre en France - B1</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/preparer-et-reussir-le-delf-b2-et-le-dalf-c1/">Fun-mooc:Préparer et Réussir le DELF B2 et le DALF C1</a></li>
+<li><a href="https://www.ecoleouverte.ca/accueil">Ecole ouverte(québec)</a></li>
+</ol>
+<p><strong>强烈推荐3、4、6这个系列的Fun-mooc，是法盟自己做的课程，非常棒！</strong></p>
+<p>法语算是比较热门语言，网上免费的资源和课程很多，如果你学的是个小语种，或者其它小众技能，只能搜索到大家比较推荐的教材，这个时候有一个特别的技巧，原则还是我们的学习需要高屋建瓴，所以这个时候，如果你已经确认了一个很好用的教材，那么你需要的是这个教材的<strong>教师用书</strong>！！！</p>
+<p>自学换一种说法就是自己教自己，你要同时扮演老师和学生双重身份，只用学生用书，你看到的内容并不是完整的，学习内容背后的知识点、内容的前后连贯性、重点需要强调的内容、各种表格总结以及建议的学习方法等等，在教师用书中都有更加详细完整的介绍。这里附赠一个网上教材+音频+教师用书的官网免费下载链接——<a href="https://www.hachettefle.com/numerique/ressources">Hachette</a>。</p>
+<p>如果你居住在巴黎的话，可以免费在<a href="https://bibliotheques.paris.fr/">巴黎图书馆</a>办一个借书证，然后借走你需要的教材以及教师用书。如果你还不会法语的话，随便去一个现场，都会有人用英语帮助你完成，记得带护照就行。另外想学法语，有机会旅游路过的话，也都办一个，虽然是巴黎的图书馆，但和是否居住在巴黎无关，它的网站有很多免费的有声书资源，办完卡之后就有账户可以使用线上阅读和听书的功能。</p>
+<p>网课和教材是最主流的完整性学习方案，往往一个语言的官方电台也会有分阶段的，以听力为主的学习资料，这个寻找方法在语言学习上屡试不爽（古希腊语和拉丁语除外…没有官方电台…）在法国的代表网站就是： <a href="https://savoirs.rfi.fr/fr">RFI Savoirs</a> 和 <a href="https://apprendre.tv5monde.com/fr">TV5monde</a>，国内有一个软件，每日法语听力，经常会收录这里面的学习材料。</p>
+<p>最后分享一下我已经整理和使用过的法语学习app，这些app大部分如果你查找经验贴的话，应该都多多少少看到过推荐：</p>
+<ul>
+<li>法语词典：<a href="https://www.frdic.com/">法语助手</a>；<a href="https://www.wordreference.com/">WordReference</a> （收费Antidote）</li>
+<li>法语Dictée： <a href="https://bescherelle.com/laccord-du-participe-passe">Bescherelle</a></li>
+<li>法语影视：<a href="https://www.arte.tv/fr/">Arte.tv</a> ； youtube上的狗血法剧</li>
+<li>法语泛听：Radios (app)</li>
+<li>法语频道：youtube的个人博主们</li>
+</ul>
+<p>这里我还要强调一点，就是在建立自己的资料库的时候，最开始可能会接触到各种资源和app，这个过程是一个做减法的过程，一定不能舍不得删除，你要相信，当你需要的时候，你还会再一次找到他们的，不常用的都删掉，减轻大脑里做选择的负担。</p>
+<p>关于入门和学习资源的搜索和筛选就先分享到这里，下一章我们讨论时间管理和项目管理，当有了课程资源和工具，如何执行。</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="搜索和提问.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="footnotes-and-citations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-parts.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
